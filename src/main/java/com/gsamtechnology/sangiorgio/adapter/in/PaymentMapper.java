@@ -1,6 +1,7 @@
 package com.gsamtechnology.sangiorgio.adapter.in;
 
 import com.gsamtechnology.sangiorgio.adapter.in.dto.PaymentDto;
+import com.gsamtechnology.sangiorgio.adapter.out.persistence.entities.PaymentEntity;
 import com.gsamtechnology.sangiorgio.domain.entities.Payment;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
