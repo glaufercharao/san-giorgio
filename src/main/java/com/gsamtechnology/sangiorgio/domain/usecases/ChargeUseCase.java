@@ -41,7 +41,7 @@ public class ChargeUseCase implements ChargePortIn {
                });
               return payment;})
             .collect(Collectors.toList());
-    publishMessagePortOut.publishCharge(chargeOptional.get());
+//    publishMessagePortOut.publishCharge(chargeOptional.get());
     return chargeMapper.toChargeResponseDto(chargeOptional.get());
   }
   private PaymentStatus getStatus(BigDecimal receivedAmount, BigDecimal originalAmount){
