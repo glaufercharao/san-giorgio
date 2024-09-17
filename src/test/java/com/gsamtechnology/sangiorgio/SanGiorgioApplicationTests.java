@@ -1,4 +1,4 @@
-package com.gsamtechnology.sandiorgio;
+package com.gsamtechnology.sangiorgio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
